@@ -80,3 +80,73 @@
  
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度搜索网址导航</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .search-box {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .search-box input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        
+        .search-box input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .links {
+            margin-bottom: 20px;
+        }
+        
+        .links a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>百度搜索网址导航</h1>
+    
+    <div class="search-box">
+        <form action="https://www.baidu.com/s" method="get" target="_blank">
+            <input type="text" name="q" placeholder="搜索...">
+            <input type="submit" value="搜索">
+        </form>
+    </div>
+    
+    <div class="links">
+        <h2>百度服务</h2>
+        <a href="https://www.baidu.com" target="_blank">百度首页</a>
+        <a href="https://www.baidu.com/s?ie=UTF-8&wd=百度知道" target="_blank">百度知道</a>
+        <a href="https://www.baidu.com/s?ie=UTF-8&wd=百度百科" target="_blank">百度百科</a>
+        <a href="https://www.baidu.com/s?ie=UTF-8&wd=百度贴吧" target="_blank">百度贴吧</a>
+        <a href="https://www.baidu.com/s?ie=UTF-8&wd=百度文库" target="_blank">百度文库</a>
+    </div>
+</body>
+</html>
